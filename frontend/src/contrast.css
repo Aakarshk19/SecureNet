@@ -1,0 +1,75 @@
+/* Readability pass: stronger type, surfaces, edges, and interactive states. */
+:root{font-size:15px;color:#18283d;background:#eaf0f7}
+body{color:#18283d;background:#eaf0f7}
+main{background:#eaf0f7}
+header{height:92px;background:#fff;border-color:#d5dfeb}
+.content{max-width:1530px;padding-top:32px}
+.sidebar{width:260px;border-color:#d5dfeb;box-shadow:2px 0 12px #263a5010}
+main{margin-left:260px}
+.brand b,h1,h2,h3,.stat strong,.tooltitle h3{color:#142944}
+.crumb,.sectionhead p,.cardhead p,.tooltitle p,.toolbody,.sidecard p{color:#53677f}
+.navlabel,.workspace,.brand small{color:#667d98}
+nav button{font-size:13px;color:#425a75}
+nav button svg{color:#627a97}
+nav button.selected{background:#dceaff;color:#0759bb;box-shadow:inset 3px 0 #2779dd}
+.welcome{background:linear-gradient(110deg,#dfedff 0%,#e9f4ff 56%,#d9ebfb 100%);border:1px solid #bed5ef;min-height:255px}
+.welcome h2{font-size:26px;color:#16365a}
+.welcome p{font-size:13px;color:#405b78}
+.eyebrow{font-size:10px;color:#145eae}
+.card{border-color:#d3deea;box-shadow:0 3px 10px #233c5710}
+.statgrid .stat:nth-child(1){background:#f5faff}
+.statgrid .stat:nth-child(2){background:#fff8f7}
+.statgrid .stat:nth-child(3){background:#f4fbf7}
+.statgrid .stat:nth-child(4){background:#f8f6ff}
+.stat{padding:18px 19px}
+.statlabel{font-size:12px;color:#425873}
+.stat strong{font-size:27px}
+.stat small,.muted{font-size:11px;color:#53677f}
+.sectionhead{margin-top:29px}
+.sectionhead h3,.cardhead h3{font-size:15px}
+.sectionhead p,.cardhead p{font-size:12px}
+.twocol,.toolsgrid{gap:16px}
+.chartcard,.certcard,.toolcard,.events{padding:19px}
+.chart{height:175px}
+.certrows span,.certrows b{font-size:11px}
+.certrows span,.eventrow small{color:#5e7188}
+.truststatus{border-color:#bfe5d1;background:#e9f8f0}
+.tablecard{padding:18px 0}
+th{background:#eaf0f7;color:#435973;font-size:10px;border-bottom:1px solid #d3deea}
+td{font-size:11px;color:#425873;border-color:#e1e8f0}
+td>b{font-size:11px;color:#263c57}
+.hash{color:#425a75}
+.status{font-size:10px}
+.tooltitle p,.toolbody{font-size:12px}
+.toolbuttons .secondary,.textbutton{font-size:11px}
+textarea{font-size:12px;color:#273d56;border-color:#cbd8e6;min-height:68px}
+.secondary,.select,.period,.iconbtn{border-color:#c8d5e3;color:#334e6c;background:#fff}
+.primary{background:#176bd0;border-color:#176bd0}
+.primary:hover{background:#0d58b4}
+.secondary:hover,.select:hover,.iconbtn:hover{background:#edf5ff;border-color:#8fb6e4}
+.linkbtn,.textbutton{color:#075fbf}
+.search{border-color:#c8d5e3;color:#526983}
+.search input{font-size:11px;color:#20364f}
+.empty{font-size:12px;color:#526983}
+.empty b{font-size:13px;color:#314b68}
+.eventrow b{font-size:12px;color:#263d57}
+.eventrow small{font-size:11px}
+.eventrow time,footer{font-size:10px;color:#5b6f87}
+.notice{border-color:#a9dfc5;background:#e7f8ef;color:#126b47;font-size:13px;padding:13px 16px}
+.notice.error{border-color:#e6aaa7;background:#fff0ef;color:#9f302b}
+.securepill{border-color:#cfdae6;color:#354e69;font-size:11px}
+.sidecard{background:#edf4fb;border-color:#d3dfec}
+.sidecard>b{font-size:12px;color:#273e58}
+.sidecard p,.sidecard span{font-size:11px}
+.sidecard span.offline{color:#a33a35}
+.sidecard span.offline i{background:#d9534f}
+.truststatus.untrusted{background:#fff0ef;border-color:#e6aaa7}
+.truststatus.untrusted .trusticon{background:#ffe1df;color:#b23b35}
+.truststatus.untrusted b{color:#a33a35}
+.truststatus.pending{background:#f3f6fa;border-color:#d5dfeb}
+.truststatus.pending .trusticon{background:#e6edf5;color:#59728e}
+.profile b{font-size:11px;color:#2c425d}
+.profile small{font-size:10px;color:#62768e}
+.tabletools .select,.period{font-size:11px}
+@media(max-width:1050px){main{margin-left:220px}.sidebar{width:220px}}
+@media(max-width:720px){.sidebar{width:62px}main{margin-left:62px}.welcome h2{font-size:22px}.content{padding:18px 13px}}
